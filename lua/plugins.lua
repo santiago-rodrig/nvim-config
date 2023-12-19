@@ -59,4 +59,8 @@ return require('packer').startup(function(use)
     }
   }
   use { 'nvim-telescope/telescope-fzf-native.nvim', run = 'make', requires = { 'nvim-telescope/telescope.nvim' } }
+
+
+  -- Colorschemes
+  use 'Mofiqul/vscode.nvim'
 end)
