@@ -63,4 +63,5 @@ return require('packer').startup(function(use)
 
   -- Colorschemes
   use 'Mofiqul/vscode.nvim'
+  use 'sainnhe/sonokai'
 end)
