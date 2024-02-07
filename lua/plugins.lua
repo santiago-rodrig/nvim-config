@@ -4,4 +4,6 @@ return require('packer').startup(function(use)
 
   -- Kanagawa colorscheme
   use 'rebelot/kanagawa.nvim'
+
+  use 'neovim/nvim-lspconfig'
 end)
