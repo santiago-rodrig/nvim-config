@@ -5,3 +5,4 @@ vim.opt.expandtab = true
 vim.opt.wrap = false
 vim.opt.number = true
 vim.opt.relativenumber = true
+vim.opt.foldlevel = 3
