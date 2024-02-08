@@ -35,7 +35,12 @@ require("nvim-tree").setup({
 
     -- Custom mappings
     -- vim.keymap.set('n', '<C-t>', api.tree.change_root_to_parent, opts('Up'))
-  end
+  end,
+  actions = {
+    open_file = {
+      quit_on_open = true,
+    },
+  },
 })
 
 vim.keymap.set('n', '<space>nt', ':NvimTreeToggle<CR>')
