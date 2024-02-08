@@ -31,4 +31,10 @@ return require('packer').startup(function(use)
 
   -- Comments
   use 'numToStr/Comment.nvim'
+
+  -- File manager
+  use {
+    'nvim-tree/nvim-tree.lua',
+    requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+  }
 end)
