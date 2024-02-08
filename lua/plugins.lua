@@ -40,4 +40,7 @@ return require('packer').startup(function(use)
 
   -- Git signs
   use 'lewis6991/gitsigns.nvim'
+
+  -- Which key goes next?
+  use 'folke/which-key.nvim'
 end)

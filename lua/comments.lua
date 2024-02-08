@@ -8,25 +8,25 @@ require('Comment').setup({
   ---LHS of toggle mappings in NORMAL mode
   toggler = {
     ---Line-comment toggle keymap
-    line = 'gcc',
+    line = '<space>cl',
     ---Block-comment toggle keymap
-    block = 'gbc',
+    block = '<space>cb',
   },
   ---LHS of operator-pending mappings in NORMAL and VISUAL mode
   opleader = {
     ---Line-comment keymap
-    line = 'gc',
+    line = '<space>cl',
     ---Block-comment keymap
-    block = 'gb',
+    block = '<space>cb',
   },
   ---LHS of extra mappings
   extra = {
     ---Add comment on the line above
-    above = 'gcO',
+    above = '<space>cO',
     ---Add comment on the line below
-    below = 'gco',
+    below = '<space>co',
     ---Add comment at the end of line
-    eol = 'gcA',
+    eol = '<space>cA',
   },
   ---Enable keybindings
   ---NOTE: If given `false` then the plugin won't create any mappings
