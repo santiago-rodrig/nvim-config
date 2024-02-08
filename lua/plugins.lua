@@ -37,4 +37,7 @@ return require('packer').startup(function(use)
     'nvim-tree/nvim-tree.lua',
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   }
+
+  -- Git signs
+  use 'lewis6991/gitsigns.nvim'
 end)
